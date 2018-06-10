@@ -26,5 +26,9 @@ public class CadenaLetrasTest {
 		assertEquals("A", cl.decodificar("B", 1));
 	}
 
-	
+	@Test
+	public void lower25() {
+		assertTrue(cl.lowerThan25(20));
+	}
+
 }
