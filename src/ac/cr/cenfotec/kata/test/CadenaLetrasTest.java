@@ -22,7 +22,7 @@ public class CadenaLetrasTest {
 	}
 
 	@Test
-	public void decode() {
+	public void decode() throws Exception {
 		assertEquals("A", cl.decodificar("B", 1));
 	}
 
