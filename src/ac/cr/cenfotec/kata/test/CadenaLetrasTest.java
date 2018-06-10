@@ -21,5 +21,10 @@ public class CadenaLetrasTest {
 		assertEquals("A", cl.codificar("Z", 1));
 	}
 
+	@Test
+	public void decode() {
+		assertEquals("A", cl.decodificar("B", 1));
+	}
+
 	
 }
